@@ -1,4 +1,4 @@
-FROM lachlanevenson/k8s-kubectl:v1.13.0
+FROM lachlanevenson/k8s-kubectl:v1.13.7
 
 # Install bash and gettext
 # gettext includes envsubst, used for variable expansion in config files
