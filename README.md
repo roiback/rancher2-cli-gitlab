@@ -11,7 +11,7 @@ variables:
   RANCHER_PROJECT: "c-xxxxx:project-xxxxx"
 
 production:
-  image: jramcast/rancher2-cli-gitlab
+  image: roiback/rancher2-cli-gitlab
   stage: deploy
   script:
     - rancher login "$RANCHER_SERVER_URL" -t "$RANCHER_API_TOKEN" --context $RANCHER_PROJECT --skip-verify
